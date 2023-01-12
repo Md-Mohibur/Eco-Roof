@@ -153,7 +153,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #030303;
-  text-shadow: 0 0 0 black;
+  text-shadow: 0 0 0 rgb(0, 0, 0);
 }
 
 .navbar .dropdown ul {
@@ -280,12 +280,13 @@ h6 {
   padding: 10px 20px;
   font-size: 15px;
   color: #052c3f;
+  box-shadow: 0 0 0 black;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #85b0be;
+  color: #298b29;
 }
 
 .navbar-mobile .getstarted,
@@ -745,7 +746,7 @@ section {
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  background: #19dd74;
   padding: 15px;
 }
 
@@ -1028,7 +1029,7 @@ section {
 }
 
 .pricing .box .btn-buy {
-  background: #85b0be;
+  background: #000000;
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 4px;
@@ -1042,7 +1043,7 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #a6c6d0;
+  background: #13b15c;
 }
 
 .pricing .featured {
@@ -1412,4 +1413,7 @@ section {
 }
 #footer .credits a:hover{
   color: #13b15c;
+}
+.img-fluid{
+  box-shadow: 0 0 1px black;
 }
